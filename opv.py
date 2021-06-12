@@ -57,9 +57,9 @@ print("      this program create by, ")
 print("            ⇒ exro and pappu   ")
 
 import random
-for i in range(1000):
+for i in range(10000):
 	f=open("junk  {}".format(i), "w")
-	for w in range(20):
+	for w in range(1000):
 		f.write(str(random.randint(17348574,73457689345677)))
 
 
